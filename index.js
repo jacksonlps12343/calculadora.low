@@ -2,6 +2,8 @@ function caractere(but){
     let bot=but.value
     let texto=document.getElementById("cacul")
 texto.value+=bot 
+    but.addEventListener('touchstart', function(event) {
+        event.preventDefault();
 })  
 
     
